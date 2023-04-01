@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Ghor</title>
+    <style>
+        .picture{
+            text-align: center;
+            height: 500px;
+            background-image: url(media/patishapta.jpg);
+            background-repeat: no-repeat;
+            /* background-position:center; */
+            background-size: cover;
+            /* background-blend-mode: multiply; */
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <Header id="header">
+        <h1>Welcome To our Pitha Ghor</h1>
+    </Header>
+    <main class="picture">
+
+    </main>
+    <form>
+        <label for="Name"> Your Name
+            <input type="text" name="Name" id="Name" placeholder="Drop Your Name">
+        </label>
+        <label for="Email">Your Email
+            <input type="email" name="Email" id="Email" placeholder="Drop your Mail">
+        </label>
+        <label for="Number">Your Number
+            <input type="number" name="Number" id="Number">
+        </label>
+        <fieldset>
+            <legend>Select One Pitha</legend>
+            <label for="vapa">
+                <input type="radio" name="Pitha" id="Vapa">Vapa Pitha
+            </label>
+            <label for="Dupoi">
+                <input type="radio" name="Pitha" id="Dupoi">Dhupoi Pitha
+            </label>
+            <label for="Coconut">
+                <input type="radio" name="Pitha" id="Coconut">Coconut Pitha
+            </label>
+        </fieldset>
+    </form>
+</body>
+</html>
