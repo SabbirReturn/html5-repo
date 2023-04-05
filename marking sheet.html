@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marking sheet</title>
+    <style>
+        td,th{
+            border: 2px solid red;
+        }
+        table{
+            border-collapse: collapse;
+            padding: 15px;
+        }
+        nav > ul{
+            display: flex;
+        }
+        nav li{
+            list-style: none;
+            padding-right: 15px;
+        }
+        nav li:hover{
+            background-color: aqua;
+        }
+        nav li a{
+            text-decoration: none;
+        }
+        /* Nasted Manu */
+        nav li .dropdown{
+            display: none;
+            /* position: absolute; */
+            /* background-color: light yellow; */
+        }
+        nav li:hover >.dropdown{
+            display: block;
+            position: absolute;
+            background-color: yellowgreen;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           <ul>
+            <li>
+                <a href="">Home</a>
+                <ul class="dropdown">
+                    <li><a href="">Home</a></li>
+                    <li>
+                        <a href="">About</a>
+                        <ul class="dropdown">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Account</a>
+                            
+                            
+                        </ul> 
+                    </li>
+                    <li><a href="">Account</a>
+                    
+                    
+                </ul>
+            </li>
+            <li><a href="">About</a></li>
+            <li>
+                <a href="">Account</a>
+                <ul class="dropdown">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Account</a>
+                    
+                    
+                </ul>
+            </li>
+            
+
+           </ul>
+        </nav>
+        <h1>Final Exam Markig Sheet</h1>
+    </header>
+    <Table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Maths</th>
+                <th>science</th>
+                <th>English</th>
+                <th>Physics</th>
+                <th> General Knowledge</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>David</td>
+                <td>80</td>
+                <td>81</td>
+                <td>82</td>
+                <td>83</td>
+                <td>84</td>
+            </tr>
+            <tr>
+                <td>Richad</td>
+                <td>91</td>
+                <td>81</td>
+                <td>71</td>
+                <td>61</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Sabbir</td>
+                <td>78</td>
+                <td>89</td>
+                <td>99</td>
+                <td>87</td>
+                <td>87</td>
+            </tr>
+            <tr>
+                <td>Misu</td>
+                <td>78</td>
+                <td>89</td>
+                <td>93</td>
+                <td>90</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </Table>
+</body>
+</html>
