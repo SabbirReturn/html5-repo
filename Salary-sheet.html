@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Sheet</title>
+    <style>
+        th,td{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        nav > ul{
+            display: flex;
+            }
+        nav ul li{
+           margin-right: 10px;
+           list-style: none;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        nav ul li:hover{
+            background-color: cadetblue;
+            
+        }
+        nav ul .dropdown{
+            display: none;
+            position: absolute;
+            background-color: lightyellow;
+            padding-left: 0px;
+        }
+        nav ul li:hover >.dropdown{
+            display: block;
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">From</a></li>
+            <li><a href="">Table</a></li>
+            <li>
+                <a href="">Semantic</a>
+                <ul class="dropdown">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">From</a></li>
+                    <li>
+                        <a href="">Table</a>
+                        <ul class="dropdown">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">From</a></li>
+                            <li><a href="">Table</a></li>
+                            <li><a href="">Semantic</a></li>
+                            <li><a href="">Media</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Semantic</a></li>
+                    <li><a href="">Media</a></li>
+                </ul>
+            </li>
+            <li><a href="">Media</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>salary Sheet for all the poor people of the world</h1>
+    </header>
+    <Table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Company Name</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Larry Page</td>
+                <td>Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckerburd</td>
+                <td>Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+    </Table>
+</body>
+</html>
