@@ -1,0 +1,7 @@
+table td,th{
+    border: 2px solid yellowgreen;
+    padding: 5px 15px ;
+}
+table{
+    border-collapse: collapse;
+}
