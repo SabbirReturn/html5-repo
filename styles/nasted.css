@@ -25,3 +25,6 @@ nav ul li:hover>.dropdown{
     background-color: yellowgreen;
     
 }
+nav ul{
+    justify-content:space-around;
+}
